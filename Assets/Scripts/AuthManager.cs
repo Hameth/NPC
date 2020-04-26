@@ -12,6 +12,7 @@ public class AuthManager : MonoBehaviour
     public InputField inputFieldEmail;
     public InputField inputFieldPassword;
     private bool LoginIndicator = false;
+
     void Start()
     {
         InitializeFirebase();
@@ -23,8 +24,18 @@ public class AuthManager : MonoBehaviour
         {
             ActiveSession();
             GetSessionProfile();
-            SceneManager.LoadScene(1);
+            SceneManager.LoadScene(2);
         }
+    }
+
+    public void changeToRegister()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    public void changeToLogin()
+    {
+        SceneManager.LoadScene(0);
     }
     void InitializeFirebase()
     {
@@ -76,6 +87,8 @@ public class AuthManager : MonoBehaviour
             Debug.LogFormat("Firebase user created successfully: {0} ({1})",
                 newUser.DisplayName, newUser.UserId);
         });
+        Debug.Log("Scene change");
+        SceneManager.LoadScene(2);
     }
 
     public void LoginUserByEmail()
@@ -110,7 +123,7 @@ public class AuthManager : MonoBehaviour
             Debug.Log("Setting up Firebase Auth");
             auth = Firebase.Auth.FirebaseAuth.DefaultInstance;
             auth.StateChanged += AuthStateChanged;
-            AuthStateChanged(this, null);
+           AuthStateChanged(this, null);
         }
 
         // Track state changes of the auth object.
