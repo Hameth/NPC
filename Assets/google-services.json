@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "363245721833",
+    "firebase_url": "https://npc-unity.firebaseio.com",
+    "project_id": "npc-unity",
+    "storage_bucket": "npc-unity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:363245721833:android:4c1afe08ac6e94b4713878",
+        "android_client_info": {
+          "package_name": "com.npc.firebaseunity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "363245721833-k6h3vcs02j5e5om4kljd6fi43tq8v03e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzVB6Ic-sNqdk6r2wfZ9075E8jIHZM5rg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "363245721833-k6h3vcs02j5e5om4kljd6fi43tq8v03e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
