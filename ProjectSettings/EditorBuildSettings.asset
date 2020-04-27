@@ -7,20 +7,20 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Login.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    guid: c161cbe1d02774c6a988b00b2d8baadf
   - enabled: 1
     path: Assets/Scenes/Register.unity
-    guid: 4c87f8cc844b18a4fbc09df3a69e5179
+    guid: 891f3f6b8dab4774b94be791c1a26060
   - enabled: 1
     path: Assets/Scenes/Home.unity
-    guid: 1a639d27e4ab28341b4744c396581429
+    guid: ff81002d4a5f64e49891e3d327eb8dbc
   - enabled: 1
-    path: Assets/Scenes/Teoria1.unity
-    guid: fda8062886b403246b297098303b9120
+    path: Assets/Scenes/Chapter 1.unity
+    guid: 912d8161db6ecc9459a23aa335dade87
   - enabled: 1
-    path: Assets/Scenes/Ejercicio1.unity
-    guid: 726e4f745ae388f479374237f4e14685
+    path: Assets/Scenes/Theory.unity
+    guid: a34fad8a984eeda448a8429f0498110e
   - enabled: 1
-    path: Assets/Scenes/Opciones1.unity
-    guid: 39f5a4009a387fb4d84692f5936b45e5
+    path: Assets/Scenes/Exercise.unity
+    guid: 28993a4f81152bd40941283f34e98194
   m_configObjects: {}

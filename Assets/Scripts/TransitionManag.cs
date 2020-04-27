@@ -18,13 +18,13 @@ public class TransitionManag: MonoBehaviour
     }
     public void changeToOptions()
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene(3);
     }
 
 
     public void changeToTheory()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(4);
     }
 
     public void changeToHome()
@@ -34,6 +34,6 @@ public class TransitionManag: MonoBehaviour
 
     public void changeToExercise()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(5);
     }
 }
