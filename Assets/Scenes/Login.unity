@@ -182,7 +182,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 38da5e27e46333d4c96118d760970803, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputFieldEmail: {fileID: 0}
+  inputFieldEmail: {fileID: 1210344389}
   inputFieldPassword: {fileID: 672208762}
 --- !u!4 &15866963
 Transform:
