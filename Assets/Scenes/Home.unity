@@ -829,7 +829,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Capitulo 1
+  m_Text: Capitulo 2
 --- !u!222 &392596919
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1970,7 +1970,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sub header
+  m_Text: Funciones
 --- !u!222 &1015627013
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2096,7 +2096,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Capitulo 1
+  m_Text: Capitulo 3
 --- !u!222 &1084328958
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2397,7 +2397,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sub header
+  m_Text: "L\xEDmites"
 --- !u!222 &1192168266
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3793,7 +3793,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Sub header
+  m_Text: Desigualdades
 --- !u!1 &6207390883039662007
 GameObject:
   m_ObjectHideFlags: 0
