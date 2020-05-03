@@ -4,6 +4,7 @@
 public class LevelGenerator : MonoBehaviour
 {
     public GameObject platformPrefab;
+    public GameObject specialplatformPrefab;
     public int numberOfPlatforms;
     public float levelWidth = 3f;
     public float minY = .5f;
@@ -17,7 +18,15 @@ public class LevelGenerator : MonoBehaviour
         {
             spawnPosition.y += Random.Range(minY, maxY);
             spawnPosition.x = Random.Range(-levelWidth, levelWidth);
-            Instantiate(platformPrefab, spawnPosition, Quaternion.identity);
+            if (i == numberOfPlatforms/2 | i == numberOfPlatforms/3)
+            {
+                Instantiate(specialplatformPrefab, spawnPosition, Quaternion.identity);
+            }
+            else
+            {
+                Instantiate(platformPrefab, spawnPosition, Quaternion.identity);
+            }
+            
         }
     }
 }
