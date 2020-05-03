@@ -31,12 +31,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/button.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QuizUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Quiz.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Platform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TransitionManag.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Platform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelGenerator.cs" />
       </list>
     </option>
   </component>
