@@ -6,66 +6,21 @@
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Trivia.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Trivia.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Quiz.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Quiz.cs" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Quiz.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-120">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <marker date="1588502320994" expanded="true" signature="6:140" ph="..." />
-                <marker date="1588502320994" expanded="true" signature="176:1465" ph="{...}" />
-                <marker date="1588502320994" expanded="true" signature="589:627" ph="{...}" />
-                <marker date="1588502320994" expanded="true" signature="698:826" ph="{...}" />
-                <marker date="1588502320994" expanded="true" signature="863:985" ph="{...}" />
-                <marker date="1588502320994" expanded="true" signature="1012:1110" ph="{...}" />
-                <marker date="1588502320994" expanded="true" signature="1054:1104" ph="{...}" />
-                <marker date="1588502320994" expanded="true" signature="1152:1458" ph="{...}" />
-                <marker date="1588502320994" expanded="true" signature="1244:1334" ph="{...}" />
-                <marker date="1588502320994" expanded="true" signature="1347:1384" ph="{...}" />
-                <marker date="1588502320994" expanded="true" signature="1509:1643" ph="{...}" />
-                <marker date="1588502320994" expanded="true" signature="1690:1703" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/QuizUI.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="33" column="46" lean-forward="true" selection-start-line="32" selection-end-line="33" selection-end-column="46" />
-              <folding>
-                <marker date="1588498318786" expanded="true" signature="6:174" ph="..." />
-                <marker date="1588498318786" expanded="true" signature="211:1678" ph="{...}" />
-                <marker date="1588498318786" expanded="true" signature="573:762" ph="{...}" />
-                <marker date="1588498318786" expanded="true" signature="627:756" ph="{...}" />
-                <marker date="1588498318786" expanded="true" signature="810:1282" ph="{...}" />
-                <marker date="1588498318786" expanded="true" signature="997:1249" ph="{...}" />
-                <marker date="1588498318786" expanded="true" signature="1359:1676" ph="{...}" />
-                <marker date="1588498318786" expanded="true" signature="1388:1670" ph="{...}" />
-                <marker date="1588498318786" expanded="true" signature="1497:1571" ph="{...}" />
-                <marker date="1588498318786" expanded="true" signature="1588:1660" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Quiz.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Platform.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuizUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Quiz.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -74,31 +29,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/button.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/QuizUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Quiz.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Platform.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LevelGenerator.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="453" />
-    <option name="y" value="398" />
-    <option name="width" value="980" />
-    <option name="height" value="526" />
-  </component>
+  <component name="ProjectId" id="1bPcRUmYjd6slLTf5TXY6LHfblb" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="UnityExplorer" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="AssemblyExplorer" />
-      <pane id="FileSystemExplorer" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
@@ -113,33 +55,19 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="10468">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="10468" />
-      <option name="userSelectedPid" value="false" />
+      <option name="pid" />
       <method v="2" />
     </configuration>
   </component>
@@ -160,51 +88,20 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="17126000" />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09696324" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Performance Profiler" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935413" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="269" y="160" key="SettingsEditor" timestamp="1588537234362">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="269" y="160" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588537234362" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -214,61 +111,5 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Options.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/button.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/QuizUI.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="33" column="46" lean-forward="true" selection-start-line="32" selection-end-line="33" selection-end-column="46" />
-          <folding>
-            <marker date="1588498318786" expanded="true" signature="6:174" ph="..." />
-            <marker date="1588498318786" expanded="true" signature="211:1678" ph="{...}" />
-            <marker date="1588498318786" expanded="true" signature="573:762" ph="{...}" />
-            <marker date="1588498318786" expanded="true" signature="627:756" ph="{...}" />
-            <marker date="1588498318786" expanded="true" signature="810:1282" ph="{...}" />
-            <marker date="1588498318786" expanded="true" signature="997:1249" ph="{...}" />
-            <marker date="1588498318786" expanded="true" signature="1359:1676" ph="{...}" />
-            <marker date="1588498318786" expanded="true" signature="1388:1670" ph="{...}" />
-            <marker date="1588498318786" expanded="true" signature="1497:1571" ph="{...}" />
-            <marker date="1588498318786" expanded="true" signature="1588:1660" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Quiz.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <marker date="1588502320994" expanded="true" signature="6:140" ph="..." />
-            <marker date="1588502320994" expanded="true" signature="176:1465" ph="{...}" />
-            <marker date="1588502320994" expanded="true" signature="589:627" ph="{...}" />
-            <marker date="1588502320994" expanded="true" signature="698:826" ph="{...}" />
-            <marker date="1588502320994" expanded="true" signature="863:985" ph="{...}" />
-            <marker date="1588502320994" expanded="true" signature="1012:1110" ph="{...}" />
-            <marker date="1588502320994" expanded="true" signature="1054:1104" ph="{...}" />
-            <marker date="1588502320994" expanded="true" signature="1152:1458" ph="{...}" />
-            <marker date="1588502320994" expanded="true" signature="1244:1334" ph="{...}" />
-            <marker date="1588502320994" expanded="true" signature="1347:1384" ph="{...}" />
-            <marker date="1588502320994" expanded="true" signature="1509:1643" ph="{...}" />
-            <marker date="1588502320994" expanded="true" signature="1690:1703" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
