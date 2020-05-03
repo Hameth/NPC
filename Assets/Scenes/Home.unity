@@ -225,8 +225,8 @@ RectTransform:
   m_Children:
   - {fileID: 1449050901}
   - {fileID: 6207390883026296355}
-  - {fileID: 223926871}
   - {fileID: 429110522}
+  - {fileID: 223926871}
   m_Father: {fileID: 1191856116}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -312,7 +312,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Diferencial
+  m_Text: C. Diferencial
 --- !u!222 &74618470
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -569,7 +569,7 @@ RectTransform:
   - {fileID: 829880139}
   - {fileID: 1271787215}
   m_Father: {fileID: 59973097}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -639,7 +639,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1551735438}
-        m_MethodName: changeToOptions
+        m_MethodName: ChangeToChapter1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -664,7 +664,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
-  m_Maskable: 1
+  m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -926,7 +926,7 @@ GameObject:
   - component: {fileID: 429110524}
   - component: {fileID: 429110523}
   m_Layer: 5
-  m_Name: RoundButton (1)
+  m_Name: GameButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -946,7 +946,7 @@ RectTransform:
   - {fileID: 445078164}
   - {fileID: 816877489}
   m_Father: {fileID: 59973097}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1014,7 +1014,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 429110525}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1551735438}
+        m_MethodName: ChangeToGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &429110525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1030,7 +1041,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 0}
   m_RaycastTarget: 1
-  m_Maskable: 1
+  m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1784,7 +1795,7 @@ GameObject:
   - component: {fileID: 881460842}
   - component: {fileID: 881460841}
   m_Layer: 5
-  m_Name: Chapter 1 (1)
+  m_Name: Chapter 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2988,7 +2999,7 @@ GameObject:
   - component: {fileID: 1496943956}
   - component: {fileID: 1496943955}
   m_Layer: 5
-  m_Name: Menu
+  m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3391,7 +3402,7 @@ GameObject:
   - component: {fileID: 1691194966}
   - component: {fileID: 1691194965}
   m_Layer: 5
-  m_Name: Chapter 1 (2)
+  m_Name: Chapter 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
