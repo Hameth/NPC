@@ -27,8 +27,10 @@
           <e p="AuthManager.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
           <e p="CameraMov.cs" t="Include" />
+          <e p="DeadScript.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="LevelGenerator.cs" t="Include" />
+          <e p="PauseMenu.cs" t="Include" />
           <e p="PersonajeScript.cs" t="Include" />
           <e p="Platform.cs" t="Include" />
           <e p="Player.cs" t="Include" />
