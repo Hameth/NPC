@@ -11,11 +11,9 @@ public class AuthManager : MonoBehaviour
     protected Firebase.Auth.FirebaseUser user;
 
     private string displayName;
-
-    //public InputField inputFieldEmail;
-    //public InputField inputFieldPassword;
-    public InputField inputFieldEmail;
-    public InputField inputFieldPassword;
+    
+    public TMP_InputField inputFieldEmail;
+    public TMP_InputField inputFieldPassword;
     private bool LoginIndicator = false;
 
     void Start()
@@ -88,12 +86,10 @@ public class AuthManager : MonoBehaviour
                 return;
             }
 
-            // Firebase user has been created.
             Firebase.Auth.FirebaseUser newUser = task.Result;
             Debug.LogFormat("Firebase user created successfully: {0} ({1})",
                 newUser.DisplayName, newUser.UserId);
         });
-        Debug.Log("Scene change");
         SceneManager.LoadScene(2);
     }
 
@@ -115,13 +111,12 @@ public class AuthManager : MonoBehaviour
                 Debug.LogError("SignInWithEmailAndPasswordAsync encountered an error: " + task.Exception);
                 return;
             }
-            
+
             LoginIndicator = true;
             Firebase.Auth.FirebaseUser newUser = task.Result;
             Debug.LogFormat("User signed in successfully: {0} ({1})",
                 newUser.DisplayName, newUser.UserId);
         });
-        
     }
 
     public void ActiveSession()
@@ -168,9 +163,6 @@ public class AuthManager : MonoBehaviour
             string name = user.DisplayName;
             string email = user.Email;
             System.Uri photo_url = user.PhotoUrl;
-            // The user's Id, unique to the Firebase project.
-            // Do NOT use this value to authenticate with your backend server, if you
-            // have one; use User.TokenAsync() instead.
             string uid = user.UserId;
         }
     }
