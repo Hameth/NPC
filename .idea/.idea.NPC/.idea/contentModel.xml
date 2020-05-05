@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-<<<<<<< HEAD
-    <e p="C:\Users\Hameth\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Hameth\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_NPC.1956881699.00" t="ExcludeRecursive" />
-    <e p="D:\Projects\GitHub\NPC" t="IncludeRecursive">
-      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
-=======
     <e p="C:\Users\kgpic\.Rider2019.1\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\kgpic\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_NPC.-296801103.00" t="ExcludeRecursive" />
     <e p="C:\Users\kgpic\Documents\GitHub\NPC\NPC" t="IncludeRecursive">
->>>>>>> 28abc268261930f434f58063535b42766f62428c
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="ExternalDependencyManager" t="Include">
