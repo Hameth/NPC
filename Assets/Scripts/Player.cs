@@ -33,7 +33,7 @@ public class Player : MonoBehaviour
             SceneManager.LoadScene("Trivia");
         }
         if (!other.gameObject.CompareTag("Tip")) return;
-        other.enabled = false;
+        other.gameObject.SetActive(false);
        
         controlPausa.PauseTip(); 
         
