@@ -23,9 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Exercise.unity
     guid: 28993a4f81152bd40941283f34e98194
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Trivia.unity
     guid: 3850e25a5e434224aa629c94b288aebc

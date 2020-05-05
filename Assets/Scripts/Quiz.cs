@@ -72,7 +72,7 @@ public class Quiz : MonoBehaviour
 
     public void RetrieveFromDatabase()
     {
-        RestClient.Get("https://npc-unity.firebaseio.com/Pregunta_1.json").Then(response =>
+        RestClient.Get("https://npc-unity.firebaseio.com/Tips").Then(response =>
         {
             Debug.Log(response.Text);
         });

@@ -22,6 +22,7 @@
             </e>
           </e>
         </e>
+        <e p="LevelLoader.cs" t="Include" />
         <e p="RestClient" t="Include">
           <e p="DemoScene" t="Include">
             <e p="Scripts" t="Include">
@@ -150,6 +151,7 @@
             <e p="EmojiOne Attribution.txt" t="Include" />
           </e>
         </e>
+        <e p="transicion.cs" t="Include" />
       </e>
       <e p="NPC.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
