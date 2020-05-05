@@ -6,37 +6,39 @@ using UnityEngine.SceneManagement;
 public class Player : MonoBehaviour
 {
     public float movementSpeed = 10f;
-    
     private float _movement;
-    private float _dirX;
     private Rigidbody2D _rb;
-    
-    private PauseMenu _controlPausa;
-    
+    private PauseMenu controlPausa;
+
+    public Joystick joystick;
     private void Start()
     {
         _rb = GetComponent<Rigidbody2D>();
+        Input.gyro.enabled = true;
+        controlPausa = FindObjectOfType<PauseMenu>();
     }
 
     private void Update()
     {
-        _dirX = Input.acceleration.x * _movement * movementSpeed;
-        transform.position = new Vector2(Mathf.Clamp(transform.position.x, -7.5f, 7.5f), transform.position.y);
+        _movement = joystick.Horizontal * movementSpeed;
     }
 
     private void FixedUpdate()
     {
-        _rb.velocity = new Vector2(_dirX, 0f);
+        Vector2 velocity = _rb.velocity;
+        velocity.x = _movement;
+        _rb.velocity = velocity;
     }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if ((other.CompareTag("Finish")))
         {
             SceneManager.LoadScene("Trivia");
         }
+
         if (!other.gameObject.CompareTag("Tip")) return;
         other.gameObject.SetActive(false);
-        _controlPausa.PauseTip(); 
-        
+        controlPausa.PauseTip();
     }
 }
