@@ -11,11 +11,11 @@ public class Quiz : MonoBehaviour
     
     [SerializeField] private QuizUI _quizUi;
     [SerializeField] private List<Question> _questions;
-    [SerializeField] private int size;
-    [SerializeField] private TextMeshProUGUI _score;
+
+    [SerializeField] private GameObject gameMenu;
     [SerializeField] private GameObject _menu;
-    private int cnt = 0;
-    private int score = 0;
+    private int cnt;
+    private int score;
     private Question selectedQuestion;
     
     // Start is called before the first frame update
@@ -36,8 +36,10 @@ public class Quiz : MonoBehaviour
 
     private void GetResult(int pts)
     {
-        _menu.transform.position = new Vector3(0,0,222222);
-        _score.text = "Puntaje\n \n"+pts;
+        gameMenu.SetActive(false);
+        _menu.SetActive(true);
+        _menu.GetComponentInChildren<TextMeshProUGUI>().text = "Puntaje\n"+pts;
+        
        
     }
 
@@ -70,17 +72,13 @@ public class Quiz : MonoBehaviour
     }
     
 }
-[System.Serializable]
+[Serializable]
 public class Question
 {
     public string question;
     public string correctAns;
     public List<string> options;
-    public QuestionType questionType;
+   
 
 }
-[System.Serializable]
-public enum QuestionType
-{
-    TEXT
-}
+

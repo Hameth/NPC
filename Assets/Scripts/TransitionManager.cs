@@ -1,11 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine.UI;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class TransitionManager: MonoBehaviour
 {
+    public void ChangeToLogin()
+    {
+        SceneManager.LoadScene(0);
+    }
     public void ChangeToChapter1()
     {
         SceneManager.LoadScene(3);
@@ -29,6 +30,6 @@ public class TransitionManager: MonoBehaviour
 
     public void ChangeToGame()
     {
-        SceneManager.LoadScene(8);
+        SceneManager.LoadScene("Game v2");
     }
 }
