@@ -3,6 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class TransitionManager: MonoBehaviour
 {
+    public void ChangeToLogin()
+    {
+        SceneManager.LoadScene(0);
+    }
     public void ChangeToChapter1()
     {
         SceneManager.LoadScene(3);

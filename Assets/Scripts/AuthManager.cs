@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
@@ -8,7 +9,11 @@ public class AuthManager : MonoBehaviour
 {
     protected Firebase.Auth.FirebaseAuth auth;
     protected Firebase.Auth.FirebaseUser user;
+
     private string displayName;
+
+    //public InputField inputFieldEmail;
+    //public InputField inputFieldPassword;
     public InputField inputFieldEmail;
     public InputField inputFieldPassword;
     private bool LoginIndicator = false;
@@ -37,6 +42,7 @@ public class AuthManager : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+
     void InitializeFirebase()
     {
         auth = Firebase.Auth.FirebaseAuth.DefaultInstance;
@@ -53,13 +59,12 @@ public class AuthManager : MonoBehaviour
             {
                 Debug.Log("Signed out " + user.UserId);
             }
+
             user = auth.CurrentUser;
             if (signedIn)
             {
                 Debug.Log("Signed in " + user.UserId);
                 displayName = user.DisplayName ?? "";
-                //emailAddress = user.Email ?? "";
-                //photoUrl = user.PhotoUrl ?? "";
             }
         }
     }
@@ -76,6 +81,7 @@ public class AuthManager : MonoBehaviour
                 Debug.LogError("CreateUserWithEmailAndPasswordAsync was canceled.");
                 return;
             }
+
             if (task.IsFaulted)
             {
                 Debug.LogError("CreateUserWithEmailAndPasswordAsync encountered an error: " + task.Exception);
@@ -103,17 +109,19 @@ public class AuthManager : MonoBehaviour
                 Debug.LogError("SignInWithEmailAndPasswordAsync was canceled.");
                 return;
             }
+
             if (task.IsFaulted)
             {
                 Debug.LogError("SignInWithEmailAndPasswordAsync encountered an error: " + task.Exception);
                 return;
             }
-
+            
+            LoginIndicator = true;
             Firebase.Auth.FirebaseUser newUser = task.Result;
             Debug.LogFormat("User signed in successfully: {0} ({1})",
                 newUser.DisplayName, newUser.UserId);
         });
-        LoginIndicator = true;
+        
     }
 
     public void ActiveSession()
@@ -123,7 +131,7 @@ public class AuthManager : MonoBehaviour
             Debug.Log("Setting up Firebase Auth");
             auth = Firebase.Auth.FirebaseAuth.DefaultInstance;
             auth.StateChanged += AuthStateChanged;
-           AuthStateChanged(this, null);
+            AuthStateChanged(this, null);
         }
 
         // Track state changes of the auth object.
@@ -136,6 +144,7 @@ public class AuthManager : MonoBehaviour
                 {
                     Debug.Log("Signed out " + user.UserId);
                 }
+
                 user = auth.CurrentUser;
                 if (signedIn)
                 {
