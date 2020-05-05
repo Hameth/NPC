@@ -26,6 +26,6 @@ public class TransitionManager: MonoBehaviour
 
     public void ChangeToGame()
     {
-        SceneManager.LoadScene(8);
+        SceneManager.LoadScene("Game v2");
     }
 }

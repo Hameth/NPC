@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="283e07f2-5606-44bd-8887-67679af2d646" name="Default Changelist" comment="" />
+    <list default="true" id="283e07f2-5606-44bd-8887-67679af2d646" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.NPC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.NPC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game v2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game v2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,15 +18,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            <state relative-caret-position="193">
+              <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
               <folding>
-                <marker date="1588635878561" expanded="true" signature="6:31" ph="..." />
-                <marker date="1588635878561" expanded="true" signature="108:835" ph="{...}" />
-                <marker date="1588635878561" expanded="true" signature="267:376" ph="{...}" />
-                <marker date="1588635878561" expanded="true" signature="403:480" ph="{...}" />
-                <marker date="1588635878561" expanded="true" signature="512:630" ph="{...}" />
-                <marker date="1588635878561" expanded="true" signature="682:833" ph="{...}" />
+                <marker date="1588645964912" expanded="true" signature="6:66" ph="..." />
+                <marker date="1588645964912" expanded="true" signature="143:978" ph="{...}" />
+                <marker date="1588645964912" expanded="true" signature="302:411" ph="{...}" />
+                <marker date="1588645964912" expanded="true" signature="438:515" ph="{...}" />
+                <marker date="1588645964912" expanded="true" signature="547:665" ph="{...}" />
+                <marker date="1588645964912" expanded="true" signature="717:976" ph="{...}" />
+                <marker date="1588645964912" expanded="true" signature="765:831" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+              <folding>
+                <marker date="1588646605552" expanded="false" signature="6:53" ph="..." />
+                <marker date="1588646605552" expanded="true" signature="100:517" ph="{...}" />
+                <marker date="1588646605552" expanded="true" signature="137:184" ph="{...}" />
+                <marker date="1588646605552" expanded="true" signature="219:266" ph="{...}" />
+                <marker date="1588646605552" expanded="true" signature="298:345" ph="{...}" />
+                <marker date="1588646605552" expanded="true" signature="381:428" ph="{...}" />
+                <marker date="1588646605552" expanded="true" signature="460:515" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -45,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+            <state relative-caret-position="121">
+              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
               <folding>
                 <marker date="1588642008517" expanded="true" signature="6:66" ph="..." />
                 <marker date="1588642008517" expanded="true" signature="106:1078" ph="{...}" />
@@ -93,6 +117,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PersonajeScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LevelGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
@@ -112,12 +137,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TransitionManag.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Platform.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LevelGenerator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DeadScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Quiz.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs" />
       </list>
     </option>
   </component>
@@ -194,12 +219,12 @@
       <updated>1588484118288</updated>
       <workItem from="1588484159613" duration="17126000" />
       <workItem from="1588567236054" duration="283000" />
-      <workItem from="1588633072821" duration="8244000" />
+      <workItem from="1588633072821" duration="10342000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25653000" />
+    <option name="totallyTimeSpent" value="27751000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -306,21 +331,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="27" column="37" lean-forward="true" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
-          <folding>
-            <marker date="1588635878561" expanded="true" signature="6:31" ph="..." />
-            <marker date="1588635878561" expanded="true" signature="108:835" ph="{...}" />
-            <marker date="1588635878561" expanded="true" signature="267:376" ph="{...}" />
-            <marker date="1588635878561" expanded="true" signature="403:480" ph="{...}" />
-            <marker date="1588635878561" expanded="true" signature="512:630" ph="{...}" />
-            <marker date="1588635878561" expanded="true" signature="682:833" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Quiz.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -343,8 +353,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PauseMenu.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        <state relative-caret-position="121">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
           <folding>
             <marker date="1588642008517" expanded="true" signature="6:66" ph="..." />
             <marker date="1588642008517" expanded="true" signature="106:1078" ph="{...}" />
@@ -354,6 +364,38 @@
             <marker date="1588642008517" expanded="true" signature="706:761" ph="{...}" />
             <marker date="1588642008517" expanded="true" signature="789:937" ph="{...}" />
             <marker date="1588642008517" expanded="true" signature="961:1076" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+          <folding>
+            <marker date="1588645964912" expanded="true" signature="6:66" ph="..." />
+            <marker date="1588645964912" expanded="true" signature="143:978" ph="{...}" />
+            <marker date="1588645964912" expanded="true" signature="302:411" ph="{...}" />
+            <marker date="1588645964912" expanded="true" signature="438:515" ph="{...}" />
+            <marker date="1588645964912" expanded="true" signature="547:665" ph="{...}" />
+            <marker date="1588645964912" expanded="true" signature="717:976" ph="{...}" />
+            <marker date="1588645964912" expanded="true" signature="765:831" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TransitionManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <marker date="1588646605552" expanded="false" signature="6:53" ph="..." />
+            <marker date="1588646605552" expanded="true" signature="100:517" ph="{...}" />
+            <marker date="1588646605552" expanded="true" signature="137:184" ph="{...}" />
+            <marker date="1588646605552" expanded="true" signature="219:266" ph="{...}" />
+            <marker date="1588646605552" expanded="true" signature="298:345" ph="{...}" />
+            <marker date="1588646605552" expanded="true" signature="381:428" ph="{...}" />
+            <marker date="1588646605552" expanded="true" signature="460:515" ph="{...}" />
           </folding>
         </state>
       </provider>
