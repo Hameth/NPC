@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using Proyecto26;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -8,7 +9,6 @@ using UnityEngine.SceneManagement;
 
 public class Quiz : MonoBehaviour
 {
-    
     [SerializeField] private QuizUI _quizUi;
     [SerializeField] private List<Question> _questions;
 
@@ -17,30 +17,23 @@ public class Quiz : MonoBehaviour
     private int cnt;
     private int score;
     private Question selectedQuestion;
-    
-    // Start is called before the first frame update
+
     void Start()
     {
         SelectQuestion();
-    }    
- 
-    // Update is called once per frame
+    }
+
     void SelectQuestion()
     {
-        
         selectedQuestion = _questions[cnt];
         _quizUi.SetQuestion(selectedQuestion);
-        
-
     }
 
     private void GetResult(int pts)
     {
         gameMenu.SetActive(false);
         _menu.SetActive(true);
-        _menu.GetComponentInChildren<TextMeshProUGUI>().text = "Puntaje\n"+pts;
-        
-       
+        _menu.GetComponentInChildren<TextMeshProUGUI>().text = "Puntaje\n" + pts;
     }
 
     private void Update()
@@ -67,18 +60,29 @@ public class Quiz : MonoBehaviour
             //no
             cnt++;
         }
-         Invoke("SelectQuestion",0.4f);
-         return correctAns;
+
+        Invoke("SelectQuestion", 0.4f);
+        return correctAns;
     }
-    
+
+    public void getQuestions()
+    {
+        RetrieveFromDatabase();
+    }
+
+    public void RetrieveFromDatabase()
+    {
+        RestClient.Get("https://npc-unity.firebaseio.com/Pregunta_1.json").Then(response =>
+        {
+            Debug.Log(response.Text);
+        });
+    }
 }
+
 [Serializable]
 public class Question
 {
     public string question;
     public string correctAns;
     public List<string> options;
-   
-
 }
-
