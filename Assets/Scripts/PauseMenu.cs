@@ -10,6 +10,7 @@ public class PauseMenu : MonoBehaviour
 {
     public GameObject pauseMenuUi;
     public GameObject menuButton;
+
     [SerializeField] private GameObject tip;
     private string _tipText;
     private List<string> _tips = new List<string>();
@@ -32,7 +33,7 @@ public class PauseMenu : MonoBehaviour
     {
         menuButton.SetActive(false);
         pauseMenuUi.SetActive(true);
-
+        
         Time.timeScale = 0f;
     }
 
